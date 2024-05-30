@@ -1,0 +1,103 @@
+
+body{
+    background-image: url('D:\Applications\html\chat-app-full-stack-main\chat-app-full-stack-main\react.js_app\public\images\1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.sign-up{
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    margin-left: 33%;
+    margin-top: 6%;
+    width: 500px;
+    box-sizing: border-box;
+    box-shadow: 8px 8px 8px rgb(196, 14, 111);
+    border-radius: 4px;
+}
+
+
+.sign-up form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px;
+    font-size: large;
+    color: black;
+}
+
+.sign-up input{
+    padding: 10px;
+    margin: 7px;
+    width: 100%;
+    font-size: 17px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+#create-account-btn{
+    width: 100%;
+    margin: 15px;
+    background-color:#e133b0;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    cursor: pointer;
+}
+
+ #create-account-btn:hover{
+   color: white;
+   background-color: #630348;
+} 
+
+.sign-up a p{
+    color: black;
+    padding: 8px;
+    width: 20%;
+    margin: auto;
+    border-radius: 5px;
+}
+.sign-up a p:hover{
+    text-decoration: underline;
+}
+
+.pwd-message {
+    font-size: medium;
+}
+
+@media screen and (max-width: 800px) {
+    .sign-up form h2 {
+        font-size: 25px;
+    }
+
+    #create-account-btn {
+        width: 40%;
+    }
+
+    .sign-up a p{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .sign-up form h2 {
+        font-size: 20px;
+    }
+
+
+    .sign-up form input {
+        font-size: 13px;
+    }
+
+    #create-account-btn {
+        width: 60%;
+    }
+
+    .sign-up a p{
+        width: 30%;
+        font-size: 14px;
+    }
+}
