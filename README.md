@@ -1,4 +1,4 @@
-Chat App
+
 Welcome to the Chat App! This application is a real-time chat platform built with the following technologies:
 
 Front-End: React
